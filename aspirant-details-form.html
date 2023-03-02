@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Aspirant Information Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Aspirant Information Form</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="education">Education Qualification:</label>
+          <select class="form-control" id="education" required>
+            <option value="">Select Qualification</option>
+            <option value="MTech">MTech</option>
+            <option value="BTech">BTech</option>
+            <option value="BBA">BBA</option>
+            <option value="BA">BA</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="experience">Experience (in years):</label>
+          <input type="number" class="form-control" id="experience" required>
+        </div>
+        <div class="form-group">
+          <label for="field">Field of Experience:</label>
+          <input type="text" class="form-control" id="field" required>
+        </div>
+        <div class="form-group">
+          <label for="skills">Skills:</label>
+          <textarea class="form-control" id="skills" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number" class="form-control" id="age" required>
+        </div>
+        <div class="form-group">
+          <label for="region">Region:</label>
+          <input type="text" class="form-control" id="region" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
