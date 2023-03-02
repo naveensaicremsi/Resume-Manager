@@ -1,5 +1,5 @@
 # Resume-Manager
-Resume Manager tool 
+Resume Manager tool. 
 This is a tool named Resume Manager, implemented using PHP ,XML and XSL, where the user will sign up and input their resume details and submit their details.
  Here the details will be stored into an XML file instead of a DBMS.
  The user can download their details in XML format along with the CSS. 
