@@ -8,6 +8,8 @@ There is also an administration login where the admin can login and search aspir
 working of the tool 
 
 The Resume Management Tool comprises of several essential features including user signup, aspirant details form, user login, admin login, and search for aspirants. These features enable users to create an account, upload their resumes, and search for resumes based on various criteria. The aspirant details form allows users to enter their education qualifications, skills, work experience, and other relevant details. The user login and admin login features provide a secure and easy way to access the tool. The search for aspirants feature enables the admin to search for resumes based on specific criteria such as skills, education qualifications, experience, age, and region. Overall, the tool is designed to simplify the process of managing resumes for recruiters and job seekers alike. 
+
+
 Languages Used 
 
 1.PHP: used as the server-side scripting language to create the web application.
